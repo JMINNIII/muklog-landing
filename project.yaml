@@ -1,0 +1,10 @@
+project:
+  name: muklog-landing
+  title: 먹로그 랜딩페이지
+components:
+  web:
+    build:
+      dockerfile: Dockerfile
+      paths: ["index.html", "Dockerfile"]
+    port: 80
+    domain: muklog.jimin.it
